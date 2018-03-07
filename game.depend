@@ -1,0 +1,591 @@
+# depslib dependency file v1.0
+1520429546 source:c:\users\kodeman\desktop\tmp\codeblocks\game\main.cpp
+	<allegro5/allegro5.h>
+	<allegro5/allegro_native_dialog.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<fstream>
+	<algorithm>
+	<iostream>
+	<vector>
+	<sstream>
+	"Ships.h"
+	"Range.h"
+	"Battle.h"
+	"Multiplayer.h"
+
+1498150617 source:c:\users\kodeman\desktop\tmp\codeblocks\game\battle.cpp
+	"Battle.h"
+	"Ships.h"
+	"Moveset.h"
+	"Range.h"
+	"Game.hpp"
+
+1496309210 c:\users\kodeman\desktop\tmp\codeblocks\game\battle.h
+	<allegro5/allegro5.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<random>
+	"Ships.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\allegro5.h
+	"allegro.h"
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1341003172 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\errno.h
+	<_mingw.h>
+
+1341003170 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\_mingw.h
+
+1341003174 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\limits.h
+	<_mingw.h>
+
+1341003176 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1341003176 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\time.h
+	<_mingw.h>
+	<stddef.h>
+
+1341003176 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1341003180 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1372618728 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\platform\alplatf.h
+
+1368959108 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1341003174 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\io.h
+	<_mingw.h>
+	<sys/types.h>
+
+1341003170 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\conio.h
+	<_mingw.h>
+
+1341003172 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\fcntl.h
+	<_mingw.h>
+	<io.h>
+
+1341003172 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\direct.h
+	<_mingw.h>
+	<stddef.h>
+	<io.h>
+
+1341003174 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\malloc.h
+	<_mingw.h>
+	<stdlib.h>
+
+1368959108 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1368959108 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1368959108 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1341003176 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\unistd.h
+	<io.h>
+	<process.h>
+	<getopt.h>
+	<sys/types.h>
+
+1341003174 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\process.h
+	<_mingw.h>
+	<sys/types.h>
+	<stdint.h>
+
+1341003176 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\stdint.h
+	<stddef.h>
+
+1341003172 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\getopt.h
+	<_mingw.h>
+
+1368959108 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1368959108 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\platform\alunix.h
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1341003172 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\inttypes.h
+	<_mingw.h>
+	<stdint.h>
+	<stddef.h>
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\color.h
+	"allegro5/base.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\path.h
+	"allegro5/base.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1372617484 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\blender.h
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\config.h
+	"allegro5/file.h"
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1341003170 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\assert.h
+	<_mingw.h>
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\error.h
+	"allegro5/base.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1368959108 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\fullscreen_mode.h
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\keycodes.h
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\memory.h
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\monitor.h
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\timer.h
+	"allegro5/base.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\alcompat.h
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\allegro_image.h
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1362323900 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1493798834 c:\users\kodeman\desktop\tmp\codeblocks\game\ships.h
+	<allegro5/allegro5.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+	<iostream>
+	<vector>
+	<fstream>
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1496309186 c:\users\kodeman\desktop\tmp\codeblocks\game\moveset.h
+	"Ships.h"
+
+1492018472 c:\users\kodeman\desktop\tmp\codeblocks\game\range.h
+	<allegro5/allegro5.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_primitives.h>
+
+1498146395 c:\users\kodeman\desktop\tmp\codeblocks\game\game.hpp
+	<windows.h>
+
+1301111162 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1301111162 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1301111164 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\winuser.h
+
+1301111162 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1301111162 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\winerror.h
+
+1301111148 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\basetsd.h
+
+1301111156 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\pshpack4.h
+
+1301111156 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\poppack.h
+
+1301111164 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\winver.h
+
+1301111148 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\dde.h
+
+1301111150 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\dlgs.h
+
+1301111148 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\commctrl.h
+	<prsht.h>
+
+1301111156 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\prsht.h
+
+1301111162 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\windef.h
+	<winnt.h>
+
+1301111162 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\wincon.h
+
+1301111160 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\winbase.h
+
+1301111162 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\wingdi.h
+
+1301111162 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\winnls.h
+
+1301111162 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\winnetwk.h
+
+1301111162 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\winreg.h
+
+1301111164 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\winsvc.h
+
+1301111148 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\cderr.h
+
+1301111148 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\ddeml.h
+
+1301111150 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\imm.h
+
+1301111154 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\lzexpand.h
+
+1301111154 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\mmsystem.h
+
+1301111154 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\nb30.h
+
+1301111158 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1301111158 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1301111148 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\basetyps.h
+
+1301111158 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\rpcdcep.h
+
+1301111158 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\rpcnsi.h
+
+1301111158 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\rpcnterr.h
+
+1341003172 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1301111160 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1301111156 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\pshpack2.h
+
+1301111162 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\winperf.h
+
+1301111148 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1301111160 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1301111156 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\objfwd.h
+	<basetyps.h>
+
+1301111164 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1301111158 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1301111158 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\rpcnsip.h
+
+1301111162 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\winspool.h
+
+1301111162 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\winsock2.h
+	<windows.h>
+
+1301111162 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1301111154 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\mswsock.h
+
+1301111156 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1301111154 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1301111156 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\objidl.h
+	<objfwd.h>
+
+1301111148 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\cguid.h
+
+1301111156 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\olectlid.h
+
+1301111156 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\oleauto.h
+	<oaidl.h>
+
+1301111154 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1301111156 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\oleidl.h
+	<objfwd.h>
+
+1493451512 source:c:\users\kodeman\desktop\tmp\codeblocks\game\game.cpp
+	"Game.hpp"
+
+1491321384 source:c:\users\kodeman\desktop\tmp\codeblocks\game\movement.cpp
+	"Movement.h"
+
+1491321352 c:\users\kodeman\desktop\tmp\codeblocks\game\movement.h
+
+1498149750 source:c:\users\kodeman\desktop\tmp\codeblocks\game\moveset.cpp
+	"Moveset.h"
+	"Ships.h"
+
+1498151145 source:c:\users\kodeman\desktop\tmp\codeblocks\game\multiplayer.cpp
+	"Multiplayer.h"
+	"Ships.h"
+
+1492446454 c:\users\kodeman\desktop\tmp\codeblocks\game\multiplayer.h
+	<allegro5/allegro5.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	<iostream>
+	<vector>
+
+1498146395 source:c:\users\kodeman\desktop\tmp\codeblocks\game\range.cpp
+	"Range.h"
+	"Ships.h"
+
+1498146395 source:c:\users\kodeman\desktop\tmp\codeblocks\game\ships.cpp
+	<iostream>
+	<conio.h>
+	"Ships.h"
+	"Game.hpp"
+	"Moveset.h"
+
+1372617532 c:\users\kodeman\desktop\tmp\codeblocks\mingw\include\allegro5\allegro_native_dialog.h
+	"allegro5/allegro.h"
+
